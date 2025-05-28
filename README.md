@@ -11,7 +11,7 @@ Step 1: Create Docker Network and Containers. Add both the containers in the sam
 # MySQL Container
 #
   docker run -d --name mysql_container \
-  -e MYSQL_ROOT_PASSWORD=db_password \
+  -e MYSQL_ROOT_PASSWORD=db_password \
   -e MYSQL_DATABASE=db_name \
   --network my_network mysql
 # WordPress Container
